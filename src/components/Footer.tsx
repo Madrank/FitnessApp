@@ -1,4 +1,3 @@
-import React from 'react';
 import { useTheme } from '../context/ThemeContext';
 
 export function Footer() {
@@ -9,7 +8,7 @@ export function Footer() {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
-            <p className="text-sm">&copy; {new Date().getFullYear()} FitnessFR. Tous droits réservés.</p>
+            <p className="text-sm">&copy; {new Date().getFullYear()} FitnessApp. Tous droits réservés.</p>
           </div>
           <div className="flex space-x-4">
             <a href="#" className="text-sm hover:underline">Confidentialité</a>

@@ -1,8 +1,7 @@
-import React from 'react';
-import { Moon, Sun, Menu, X } from 'lucide-react';
+import { Menu, Moon, Sun, X } from 'lucide-react';
+import { useState } from 'react';
 import { useTheme } from '../context/ThemeContext';
 import { NavLink } from './NavLink';
-import { useState } from 'react';
 
 export function Header() {
   const { theme, toggleTheme } = useTheme();
@@ -16,7 +15,7 @@ export function Header() {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <NavLink to="/" className="text-xl font-bold text-blue-600">
-              FitnessFR
+              FitnessApp | sculptez votre corps
             </NavLink>
           </div>
 
